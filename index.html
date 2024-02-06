@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>Document title</title>
+<meta charset='utf-8'>
+<meta name='description' content='Description of document content'>
+<link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<div class="topnav">
+    <a href="./contact.html">Contact</a>
+    <a href="./about.html">About</a>
+  </div>
+<body>
+
+<header role='banner'>
+  <h1> Blue Team Eatery </h1>
+  <nav>
+    <ol role='navigation'>
+      <li>
+        <a href='#menu'>Menu</a>
+      </li>
+      <li>
+        <a href="#orderform">Order Form </a>
+      </li>
+      <li>
+        <a href='#contactform'>Contact Form</a>
+      </li>
+      <li>
+        <a href='#paymentinformation'>Payment Information</a>
+      </li>
+    </ol>
+  </nav>
+</header>
+
+<main role='main'>
+  <div id="menu">
+  <h2>Menu Items</h2>
+ <table>
+  <tr>
+    <th>Food Item</th>
+    <th>Price</th>
+    <th>Image</th>
+  </tr>
+  <tr>
+    <td>Pasta</td>
+    <td>$18.00</td>
+    <td> <img src="https://raw.githubusercontent.com/MercyOgunlade/Pasta-Photo/main/Pasta%20photo.webp" height="90px" width="90px"></td>
+  </tr>
+  <tr>
+    <td>Bread</td>
+    <td>$12.00</td>
+    <td> <img src="https://raw.githubusercontent.com/MercyOgunlade/Garlic-Bread/main/Garlic%20Bread.webp" heigh="80px" width="85px"> </td>
+  </tr>
+   <tr>
+    <td>Salad</td>
+    <td>$15.00</td>
+    <td> <img src="https://github.com/MercyOgunlade/Salad-Image/blob/main/salad%20image.jpeg?raw=true" height="90px" width="90px"</td>
+  </tr>
+</table>
+  </div> 
+  <br>
+<!-- Add your restaurant order form below -->
+  <div id="orderform">
+    </form>
+    <h4>Order Form</h4>
+    <label for="food">Select Menu Item:</label><br>   
+      <input type="checkbox" name="Pasta" value="Pasta" />
+      Pasta
+    </label>
+    <label class="dropdown-option">
+      <input type="checkbox" name="Bread" value="Bread" />
+      Bread
+    </label>
+    <label class="dropdown-option">
+      <input type="checkbox" name="Salad" value="Bread" />
+      Salad
+    </label>
+  </div>
+  <br>
+<!-- Add your restaurant order form above -->
+<!-- Order Form Info Below -->
+  <div id="contactform">
+  <h4> Contact Form</h4>
+  <form role='order_form'>
+    <label for="name">First & Last Name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+      <label for="pnumber">Phone Number:</label><br>
+  <input type="text" id="pnumber" name="pnumber"><br>
+  <label for="address">Address:</label><br>
+  <input type="text" placeholder='Street Name' id="address" name="address">
+  <input type="text" placeholder='City'>
+    <select name=”State” id=”state” size=”1″>
+<option value="" disabled selected>State</option>
+<option value=”AL” id=”AL”>Alabama</option>
+<option value=”AK” id=”AK”>Alaska</option>
+<option value=”AZ” id=”AZ”>Arizona</option>
+<option value=”AR” id=”AR”>Arkansas</option>
+<option value=”CA” id=”CA”>California</option>
+<option value=”CO” id=”CO”>Colorado</option>
+<option value=”CT” id=”CT”>Connecticut</option>
+<option value=”DE” id=”DE”>Delaware</option>
+<option value=”DC” id=”DC”>Dist of Columbia</option>
+<option value=”FL” id=”FL”>Florida</option>
+<option value=”GA” id=”GA”>Georgia</option>
+<option value=”HI” id=”HI”>Hawaii</option>
+<option value=”ID” id=”ID”>Idaho</option>
+<option value=”IL” id=”IL”>Illinois</option>
+<option value=”IN” id=”IN”>Indiana</option>
+<option value=”IA” id=”LA”>Iowa</option>
+<option value=”KS” id=”KS”>Kansas</option>
+<option value=”KY” id=”KY”>Kentucky</option>
+<option value=”LA” id=”LA”>Louisiana</option>
+<option value=”ME” id=”ME”>Maine</option>
+<option value=”MD” id=”MD”>Maryland</option>
+<option value=”MA” id=”MA”>Massachusetts</option>
+<option value=”MI” id=”MI”>Michigan</option>
+<option value=”MN” id=”MN”>Minnesota</option>
+<option value=”MS” id=”MS”>Mississippi</option>
+<option value=”MO” id=”MO”>Missouri</option>
+<option value=”MT” id=”MT”>Montana</option>
+<option value=”NE” id=”NE”>Nebraska</option>
+<option value=”NV” id=”NV”>Nevada</option>
+<option value=”NH” id=”NH”>New Hampshire</option>
+<option value=”NJ” id=”NJ”>New Jersey</option>
+<option value=”NM” id=”NM”>New Mexico</option>
+<option value=”NY” id=”NY”>New York</option>
+<option value=”NC” id=”NC”>North Carolina</option>
+<option value=”ND” id=”ND”>North Dakota</option>
+<option value=”OH” id=”OH”>Ohio</option>
+<option value=”OK” id=”OK”>Oklahoma</option>
+<option value=”OR” id=”OR”>Oregon</option>
+<option value=”PA” id=”PA”>Pennsylvania</option>
+<option value=”RI” id=”RI”>Rhode Island</option>
+<option value=”SC” id=”SC”>South Carolina</option>
+<option value=”SD” id=”SD”>South Dakota</option>
+<option value=”TN” id=”TN”>Tennessee</option>
+<option value=”TX” id=”TX”>Texas</option>
+<option value=”UT” id=”UT”>Utah</option>
+<option value=”VT” id=”VT”>Vermont</option>
+<option value=”VA” id=”VA”>Virginia</option>
+<option value=”WA” id=”WA”>Washington</option>
+<option value=”WV” id=”WV”>West Virginia</option>
+<option value=”WI” id=”WI”>Wisconsin</option>
+<option value=”WY” id=”WY”>Wyoming</option>
+</select>
+ <input type="text" id="Zip" name="zip" placeholder="Zip/Postal code"><br>
+ <label for="email">Email:</label><br>
+  <input type="text" id="email" name="email"><br>
+  <br>
+  </div>
+   <div id="paymentinformation"> 
+  <h4>Payment Information</h4>
+  <input type="cnumber" placeholder='Card Number' id="cnumber" name="cnumber">
+  <input type="exdate" placeholder='Expiration Date'>
+  <input type="CVV" placeholder='CVV'>
+  <input type="BillingZip" placeholder='Billing Zip Code'>
+</div>
+  <br>
+  <form role='search'>
+      <input type='Submit' placeholder='Submit' src="www.deadlinkdeadlink.org">
+    </form>
+    </select>
+  </form>
+<!-- rder Form Info Above -->
+</main>
+</body>
+</html>

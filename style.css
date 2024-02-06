@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight:normal;   
+}
+
+body {
+    font-family: Cursive, sans-serif; /* Use a basic, widely-supported font */
+    line-height: 1.6; /* A basic line-height for readability */
+    color: #333; /* A basic text color that's not too harsh */
+    background-color: #fff; /* A basic background color */
+}
+
+/* Add your custom CSS below this line */
+#menu {
+  background-color: pink;
+}
+
+ h1 {
+  text-align: center;
+}
+
+h1, h2, h4 {
+  font-weight:bold;
+}
+ 
+
+
+
+
+
+
+
+
+
+
